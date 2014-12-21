@@ -1,0 +1,9 @@
+[submodule "pd-acid-core"]
+	path = pd-acid-core
+	url = https://github.com/chr15m/pd-acid-core.git
+[submodule "pd-midi-guis"]
+	path = pd-midi-guis
+	url = https://github.com/chr15m/pd-midi-guis.git
+[submodule "blockhead"]
+	path = blockhead
+	url = https://github.com/chr15m/blockhead.git
