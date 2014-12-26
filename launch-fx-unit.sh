@@ -23,12 +23,10 @@ pwd
 ./stereo.sh
 pd -open _main.pd -alsamidi -midiindev 0,1,2,3,17,18 $gui $@ &
 renice -n -19 -u chrism
-sleep 1
-echo 3
-sleep 1
-echo 2
-sleep 1
-echo 1
-sleep 1
+for x in `seq 7 -1 1`;
+do
+	sleep 1
+	echo $x
+done
 ./setup-midi.sh
 echo done

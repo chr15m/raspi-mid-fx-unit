@@ -7,3 +7,9 @@
 [submodule "blockhead"]
 	path = blockhead
 	url = https://github.com/chr15m/blockhead.git
+[submodule "808-thing"]
+	path = 808-thing
+	url = https://github.com/chr15m/808-thing.git
+[submodule "rc-patches"]
+	path = rc-patches
+	url = https://github.com/danomatika/rc-patches.git
